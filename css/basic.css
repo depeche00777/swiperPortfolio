@@ -69,9 +69,9 @@ nav a:hover span:after { width: 100%; }
 .section5 { background: #752c24; }
 .section6 { background: #58E6FD; }
 
-.section2 .bg { background:url(../media/mainVisual01.jpg) no-repeat center center / cover; }
-.section4 .bg { background:url(../media/mainVisual02.jpg) no-repeat center center / cover; }
-.section6 .bg { background:url(../media/mainVisual03.jpg) no-repeat center center / cover; }
+.section2 .bg { background:url(../media/hotel.jpg) no-repeat center center / cover; }
+.section4 .bg { background:url(../media/hamburger.jpg) no-repeat center center / cover; }
+.section6 .bg { background:url(../media/hospital.jpg) no-repeat center center / cover; }
 
 .intro {  color: #fff;
   position: absolute; top:30vh;  width:900px; left:50%; transform: translateX(-50%); z-index: 9; }
@@ -90,6 +90,8 @@ nav a:hover span:after { width: 100%; }
   .intro.right .title { transform: translate(-150px,0); }
    .title strong { font-size: 60px; }
   .desc { font-size: 18px; line-height: 1.7; padding-bottom: 20px; opacity:0; transition: .5s .4s ease-in; }
+  
+  .section1 .desc { text-align: right; font-size: 15px; line-height: 1.7;  }
 
   .swiper-slide-active .cate { transform: translate(0, 0); opacity: 1;}
   .swiper-slide-active .title { transform: translate(0, 0); opacity: 1; }
@@ -111,7 +113,7 @@ nav a:hover span:after { width: 100%; }
 
 
 
-  .section2 .intro { color: #000; }
+  .section2 .intro, .section5 .intro, .section6 .intro { color: #000; }
 
   .page_control { display: flex; align-items: center; gap:10px;
   position: fixed; bottom: 20px; right: 20px; z-index: 10; }
